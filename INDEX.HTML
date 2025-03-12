@@ -3,88 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Pair Resume</title>
     <style>
-        /* General Styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            background-color: #be4e9379;
             margin: 0;
+            padding: 20px;
         }
-
-        /* Login Container */
-        .login-container {
-            background-color: white;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 900px;
+            margin: auto;
+            background: rgb(165, 76, 106);
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            width: 300px;
+            box-shadow: 0 0 10px rgba(90, 72, 139, 0.1);
+        }
+        .resume {
+            width: 45%;
+            padding: 20px;
+            background: #c4738b;
+            border-radius: 10px;
             text-align: center;
         }
-
-        /* Form Styles */
-        .login-container input {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        h2 {
+            color: #2c1c07;
         }
-
-        /* Button Styles */
-        .login-btn {
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 10px;
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
         }
-
-        .login-btn:hover {
-            background-color: #0056b3;
+        .section {
+            margin-bottom: 15px;
+            text-align: left;
         }
-
-        /* Sign-up Link */
-        .signup-text {
-            margin-top: 10px;
-            font-size: 14px;
-        }
-
-        .signup-text a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        .signup-text a:hover {
-            text-decoration: underline;
+        .section h3 {
+            margin-bottom: 5px;
+            color: #e6aaaa;
         }
     </style>
 </head>
-<script src="script.js"></script>
 <body>
 
-    <div class="login-container">
-        <h2>Login</h2>
-        <form action="dashboard.html" method="POST">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+<div class="container">
+    <!-- Resume 1 -->
+    <div class="resume">
+        <img src="images/rey123.jpg" alt="Jane Smith" class="profile-pic"> <!-- Replace with actual image path -->
+        <h2>Rey Mark Cabasag</h2>
+        <div class="section">
+            <h3>Objective</h3>
+            <p>To obtain rewarding position where in learned skills and acquired knowledge will contribute to the development of the company's operation and its people. thus, maximizing growth professionally and personally.
+            
+        </div>
+        <div class="section">
+            <h3>Personal Information</h3>
+            <p>april 14 2003</p>
+            <p>Lower Loboc, Oroquieta City</p>
+            <p>single</p>
+            <p>5'4</p>
+            <p>47 kg</p>
+            <p>Filipino</p>
+            <p>Cooking,Reading books</p>
+            <p>Fernado Cabasag</p>
+            <p>Rosalina Cabasag
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="section">
+            <h3>Strengths</h3>
+            <p>computer literate (word,excel,& power point)
+            <p>Good communication skills (english,filipino)
+            
 
-            <button type="submit" class="login-btn">Login</button>
-        </form>
-        
-        <p class="signup-text">Don't have an account? <a href="signup.html">Sign up here</a></p>
+
+
+
+       </div>
+        <div class="section">
+            <h3>Education Background</h3
+            >
+            <p>COLLEGE:University of Science and Technology of Southern Philippines
+            <p>MONHS: Misamis Occidental National High School</p>
+            <p>OCCES:Oroquieta City Central Elementary School</p>
+            </ul>
+        </div>
+ 
+</div>
+
+<!--resume2 -->
+    <div class="resume">
+        <img src="images/flora123.jpg" alt="Jane Smith" class="profile-pic"> <!-- Replace with actual image path -->
+        <h2>Flora Mae Cabatcha
+            <div class="section">
+                <h3>Objective</h3>
+                <p>Seeking a challenging position in a dynamic organization where i can utilize my skills,experiences,and passion for my course to contribute to company growth while advancing my career
+                
+            </div>
+            <div class="section">
+                <h3>Personal Information</h3>
+                <p>November 06 2004
+                <p>Rizal Lopez Jaena Misamis Occidental
+                <p>single</p>
+                <p>5'2
+                <p>58</p>
+                <p>Filipino</p>
+                <p>watching,playing sports
+                <p>Elmer Cabatcha
+                <p>Anelyn Cabatcha
+    
+            </div>
+            <div class="section">
+                <h3>Strengths</h3>
+                <p>Good communication skills (english,filipino)
+                
+    
+    
+    
+    
+           </div>
+            <div class="section">
+                <h3>Education Background</h3
+                >
+                <p>COLLEGE:University of Science and Technology of Southern Philippines
+                <p>SFXHS:Saint Francis Xavier High School 
+                <p>Rizal:Rizal Elementary School
+                </ul>
+            </div>
+     
     </div>
-
-</body>
-</html>
+        

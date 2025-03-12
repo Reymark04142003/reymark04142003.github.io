@@ -1,64 +1,42 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #92c0e0c0;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+}
+.container {
+    width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.header {
+    background-color: #225ad1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.header h1 {
     margin: 0;
 }
-
-.form-container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+.section-title {
+    background-color: #5b73de;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 20px;
 }
-
-h2 {
-    margin-bottom: 20px;
+.content {
+    padding: 10px 20px;
 }
-
-label {
-    display: block;
-    text-align: left;
-    margin-bottom: 5px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
+.skills span {
+    display: inline-block;
+    background-color: #d9edf7;
+    padding: 5px 15px;
+    margin: 5px 0;
     border-radius: 5px;
 }
-
-button {
-    width: 100%;
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
-p {
-    margin-top: 10px;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex; /* Para horizontal ang links */
-    gap: 15px; /* Spacing sa mga items */
-}
-
-nav ul li {
-    display: inline;
+.contact p {
+    margin: 5px 0;
 }
